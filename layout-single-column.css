@@ -1986,9 +1986,9 @@ body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
 }
 
 /* Hide label */
-.layout-single-column .account__header__bio .account__header__fields dt {
+/* .layout-single-column .account__header__bio .account__header__fields dt {
   display: none;
-}
+} */
 
 /* Joined label */
 .layout-single-column .account__header__bio .account__header__fields dt:not([title]) {
@@ -3067,7 +3067,7 @@ body.embed .button.logo-button:hover,
   /* Make the column link 1/4 of width of the screen */
   .layout-single-column .navigation-panel .navigation-panel__legal,
   .layout-single-column .navigation-panel .column-link {
-    flex: 0 0 calc(100vw / 4);
+    flex: 0 0 calc(100vw / 4.5);
     padding: 0;
   }
 
