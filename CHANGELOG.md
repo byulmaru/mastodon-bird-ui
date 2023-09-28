@@ -1,8 +1,82 @@
-### 1.7.1rc2-nightly: 2023-08-01
+### 1.7.8: 2023-09-24
+
+* Add profile icons for Ko-fi, Patreon, Paypal and Mastodon
+* Add new profile icons to the advanced web interface
+* Add verified badge styles to user listings
+* Fix: Hide pipe from link icons if there is no textual label
+* Fix regression with verified labels on multiple column view
+* Fix unminified globe icon causing it to randomly disappear #89, Fixes #90
+* Fix partial globe icon on light theme
+* Fix mention and hashtag color contrast for light theme
+* Fix consistency for --icon-boost-notification-filter-bar
+* Truncate too long localized unfollow button text in notifications in mobile
+
+### 1.7.7: 2023-09-23
+
+* Add Inactive Global Icons #89 (thanks @0ddfactory!)
+* Fix Multi-Column Icon Size #89 (thanks @0ddfactory!)
+* Hotfix for offset on boost icon for mobile (thanks @mitexleo!)
+
+### 1.7.6: 2023-09-23
+
+* Fix the x position in recent searches
+* Introduce new boost micro-interaction, Fixes #81 #74
+* Fix padding in multiple column view
+* Fix boost icon
+* Add new boost interactions to advanced web interface
+* Use `i` modifier to reduce attr selector repetition #84 (thanks @valtlai!)
+* Update `--icon-boost-notification-wrapper` to match new boost icon
+* Fix light theme icon colors
+
+### 1.7.5: 2023-09-23
+
+* Recognize mispelled GitHub and add an icon
+* Recognize empty field and remove pipe
+* Hover effect missing in menus, Fixes #79 (Thanks @Roboron3042!)
+* Profile view on mobile leaves kebab menu out when the localized "Unfollow" label is longer, Fixes #87 (Thanks @ikke-t!)
+* Support for Mastodon 4.2.0
+
+### 1.7.4-nightly: 2023-09-14
+
+* Improve ellipse shaped counter with 10+ notifications, Fix build, Fixes #32 (thanks @Freeplayg!)
+* Fix line-height for ellipse shaped counter
+* Re-think profile links/labels, Fixes #61
+* Fix non-PWA iOS Safari Compose form top header overlap
+* If social media, move even further from links
+* If the profile item has no link element, show just label icon
+* Add Discord and LinkedIn icons
+* Add Instagram icon
+* Re-think verified link, ditch the idea of name badge, Fixes #61
+
+### 1.7.3-nightly: 2023-09-07
+
+* Add bottom padding for the PWA on iPhones with the home bar #72 (thanks @LetyDoesStuff!)
+* Fix top header overlapping in /publish on iPhone
+* Fix regression with top header on iPhone in compose view
+* Fix mistake in class
+* Support 4.2.0-beta3
+* Fix missing Active Tab Indicator on Mastodon 4.2.x Instances #73 (kudos to @rimar1337!)
+
+### 1.7.2-nightly: 2023-08-28
+
+* Support Mastodon 4.2.0-beta2
+* Tint hashtag bar to the right
+* Add pill style hashtags styles for hashtag bar tag list
+* Fix regression in tinting hashtag bar
+* Fix bullet hover and focus on light theme
+* Fix embedded media not displaying in status cards #69 (thanks @LetyDoesStuff!)
+
+### 1.7.1-nightly: 2023-08-12
 
 * Fix preview cards that are not expanded
 * Improve compact and expanded preview card alignments
 * Fix status-card__description color on hover
+* Thinner scrollbars for advanced web interface on 4.1.6
+* Improve advanced UI Getting started view column link, icon and heading alignment
+* Improve iPad compatibility of advanced web interface
+* Fix button with bell padding on advanced web interface
+* Fix wrong width of bottom column-links on mobile
+* Fix "About" page's server thumbnail margins on mobile #64 (thanks @LetyDoesStuff!)
 
 ### 1.7.0-nightly: 2023-08-01
 

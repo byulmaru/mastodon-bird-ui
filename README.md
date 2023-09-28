@@ -1,6 +1,6 @@
 ## Mastodon with modern birdsite-like UI
 
-[![Build Status for CSS](https://github.com/ronilaukkarinen/mastodon-bird-ui/actions/workflows/styles.yml/badge.svg)](https://github.com/ronilaukkarinen/mastodon-bird-ui/actions/workflows/styles.yml) [![Supported Mastodon version](https://img.shields.io/badge/mastodon-v4.1.5-595aff)](https://github.com/mastodon/mastodon)
+[![Build Status for CSS](https://github.com/ronilaukkarinen/mastodon-bird-ui/actions/workflows/styles.yml/badge.svg)](https://github.com/ronilaukkarinen/mastodon-bird-ui/actions/workflows/styles.yml) [![Supported Mastodon version](https://img.shields.io/badge/mastodon-v4.2.0-595aff)](https://github.com/mastodon/mastodon) <a href="https://github.com/sponsors/ronilaukkarinen"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" alt="GitHub Sponsor" height="20px"></a> <a href="https://ko-fi.com/rolle"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" height="20px"></a> <a href="https://www.buymeacoffee.com/Fd140aV"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-orange.png" height="20px"></a>
 
 Blasphemy! Yes, I know, but I just had to do this. I wanted to see if it's possible to get <a href="https://github.com/mastodon/mastodon">Mastodon</a> default user interface to resemble Twitter, but be a lot better than it ever was.
 
@@ -11,14 +11,7 @@ Read the blog post: [The day I decided to build my own "Twitter"](https://rolle.
 
 ## [Live demo on mementomori.social](https://mementomori.social)
 
-![mbui (2) (1)](https://github.com/ronilaukkarinen/mastodon-bird-ui/assets/1534150/ac33301f-fc15-40da-b96a-c238016bb958)
-
-## Versions
-
-Mastodon Bird UI uses the following version formatting: _semver + stability tag, for example: `1.5.8rc4-nightly`. First, check the Mastodon version you're running, then choose the version for Mastodon Bird UI. If you're running Mastodon 4.1.2/4.1.3/4.1.4/4.1.5 **stable** (from stable tag), choose the version for it below. If you're running Mastodon nightly (from main branch), choose the version `Mastodon nightly (main branch)`.
-
-- [Mastodon 4.1.2, 4.1.3, 4.1.4, 4.1.5 stable versions](https://github.com/ronilaukkarinen/mastodon-bird-ui/tree/stable)
-- [Mastodon nightly (main branch)](https://github.com/ronilaukkarinen/mastodon-bird-ui/tree/main)
+![mbui (3)](https://github.com/ronilaukkarinen/mastodon-bird-ui/assets/1534150/144cca29-2fcf-4d94-8a83-b3526dbdd420)
 
 ## Table of contents
 
@@ -103,7 +96,7 @@ The following instances have enabled Mastodon Bird UI for their users, based on 
 
 | **Instance**                                                             | **Implementation method** | **Theme name**   | **User count** | **Default** |
 |--------------------------------------------------------------------------|---------------------------|------------------|----------------|-------------|
-| [mementomori.social](https://mementomori.social/explore)                 | Site theme                | Mastodon Bird UI | 30+            | Yes         |
+| [mementomori.social](https://mementomori.social/explore)                 | Site theme                | Mastodon Bird UI | 100+           | Yes         |
 | [dvm.community](https://dmv.community/explore)                           | Custom CSS                | N/A              | 200+           | Yes         |
 | [muri.network](https://muri.network/explore)                             | Site theme                | Mastodon Bird UI | 100+           | Yes         |
 | [suomi.social](https://suomi.social/explore)                             | Custom CSS                | N/A              | 10+            | Yes         |
@@ -130,14 +123,20 @@ The following instances have enabled Mastodon Bird UI for their users, based on 
 | [tkz.one](https://tkz.one/explore)                                       | Modified Custom CSS       | N/A              | 3500+          | Yes         |
 | [mastodonsweden.se](https://mastodonsweden.se/explore)                   | Custom CSS                | N/A              | 130+           | Yes         |
 | [mindly.social](https://mindly.social/explore)                           | Site theme                | Elephant         | 4800+          | No          |
-| [vmst.io](https://vmst.io/explore)                                       | Site theme                | Bird UI          | 650+           | No          |
+| [vmst.io](https://vmst.io/explore)                                       | Site theme                | Elephant         | 650+           | No          |
 | [some.tehy.fi](https://some.tehy.fi/explore)                             | Custom CSS                | N/A              | 3              | Yes         |
 | [pug.ninja](https://pug.ninja/explore)                                   | Custom CSS                | N/A              | 1              | Yes         |
 | [aus.social](https://aus.social/explore)                                 | Site theme                | Elephant         | 5700+          | No          |
 | [tyrol.social](https://tyrol.social/explore)                             | Site theme                | BirdUI           | 40+            | No          |
 | [social.ferrocarril.net](https://social.ferrocarril.net/explore)         | Custom CSS                | N/A              | 20+            | Yes         |
 | [social.braydmedia.de](https://social.braydmedia.de/explore)             | Custom CSS                | N/A              | 1              | Yes         |
-| [mastodon.sg](https://mastodon.sg)             | Custom CSS                | N/A              | 100+              | Yes         |
+| [mastodon.sg](https://mastodon.sg)                                       | Custom CSS                | N/A              | 100+           | Yes         |
+| [krassestegang.social](https://krassestegang.social/explore)             | Site theme                | Elephant         | 3              | Yes         |
+| [artsculture.media](https://artsculture.media/explore)                   | Site theme                | Mastodon Bird UI | 60+            | No          |
+| [furry.energy](https://furry.energy/explore)                             | Site theme                | Elephant         | 90+            | Yes         |
+| [vkl.world](https://vkl.world/explore)                                   | Modified Custom CSS       | N/A              | 2000+          | Yes         |
+| [duk.space](https://duk.space/explore)                                   | Site theme                | Bird UI          | 80+            | No          |
+| [supebase.com](https://supebase.com)                                     | Site theme                | Bird UI Modified | 1              | Yes         |
 
 ## Installation for Mastodon instance admins
 
@@ -317,9 +316,9 @@ If you are using 4.1.2, 4.1.3 or 4.1.4 **stable** tag version, you can implement
 There are two micro-interaction animations in this UI, both are inspired by the Twitter's original UI animation. The star is originally a work of 
 a Twitter designer [Brian Waddington](https://dribbble.com/shots/1884504-Twitter-Fav). The heart is by Twitter design team. Both animations have been completely re-created by me, frame by frame. The star animation itself contains 100 hand made frames.
 
-| Twitter likes | Twitter fave star (2015) |
-| ------------- | ------------- |
-| <img src="https://user-images.githubusercontent.com/1534150/230135110-6391e061-10c9-4819-af8b-7144b31dac93.gif" width="200" alt="heart" /> | ![star](https://user-images.githubusercontent.com/1534150/230135096-4d1ac9b2-290b-41da-a136-985e908868fa.gif) |
+| Twitter likes | Twitter fave star (2015) | Boost animation |
+| ------------- | ------------- |------------ |
+| <img src="https://user-images.githubusercontent.com/1534150/230135110-6391e061-10c9-4819-af8b-7144b31dac93.gif" height="200" alt="heart" /> | <img src="https://user-images.githubusercontent.com/1534150/230135096-4d1ac9b2-290b-41da-a136-985e908868fa.gif" alt="star" height="200px"> | <img src="https://github.com/ronilaukkarinen/mastodon-bird-ui/assets/1534150/ef02d2b8-14bc-4dbc-9b48-112c723c71cb" alt="boost" height="200px"> | 
 
 If you like the heart, just remove everything between `Star animation micro-interactions start (depends on the heart icon above)` and `Star animation micro-interactions end`.
 
